@@ -1,1 +1,22 @@
-# Vyshak
+/app
+  /api
+    v1/
+      endpoints.py
+  /core
+    config.py
+    security.py
+  /models
+    user.py
+  /schemas
+    user.py
+  /services
+    auth.py
+    mailer.py
+  /db
+    session.py
+  main.py
+tests/
+alembic/
+Dockerfile
+docker-compose.yml
+.github/workflows/ci.yml
